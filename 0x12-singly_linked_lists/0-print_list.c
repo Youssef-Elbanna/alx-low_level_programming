@@ -8,6 +8,13 @@ int _strlen(char *s)
 		i++;
 	return (i);
 }
+
+/**
+ * print_list - prints a linked list
+ * @h: pointer to first node
+ *
+ * Return: size of list
+ */
 size_t print_list(const list_t *h)
 {
 	size_t i = 0;
@@ -18,4 +25,4 @@ size_t print_list(const list_t *h)
 		i++
 	}
 	return (i);
-	}	
+}	
