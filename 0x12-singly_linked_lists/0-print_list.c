@@ -1,5 +1,8 @@
-#include "studio.h"
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
 #include "lists.h"
+
 int _strlen(char *s)
 {	
 	int i = 0;
@@ -21,9 +24,9 @@ size_t print_list(const list_t *h)
 	size_t i = 0;
 	while (h)
 	{
-		printf("[%d] %s\n", _strlen(h->str), h-> str ? h ->str :"(nil)";
+		printf("[%d] %s\n", _strlen(h->str), h-> str ? h ->str :"(nil)");
 		h = h->next;
-		i++
+		i++;
 	}
 	return (i);
 }	
