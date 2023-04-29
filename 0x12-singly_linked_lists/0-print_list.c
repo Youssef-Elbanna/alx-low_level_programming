@@ -1,3 +1,4 @@
+#include "studio.h"
 #include "lists.h"
 int _strlen(char *s)
 {	
@@ -10,8 +11,8 @@ int _strlen(char *s)
 }
 
 /**
- * print_list - prints a linked list
- * @h: pointer to first node
+ * print_list:  prints a linked list
+ * @h: pointer to a  first node
  *
  * Return: size of list
  */
