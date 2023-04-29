@@ -4,7 +4,7 @@
 #include "lists.h"
 
 /**
- * list_len: determines the length of the  linked list
+ * list_len - determines the length of the  linked list
  * @h: pointer to a first node
  * Return: size of list
  */
